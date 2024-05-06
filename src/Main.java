@@ -46,7 +46,7 @@ public class Main {
             days = 1;
         } else if (distance < 60) {
             days = 2;
-        } else if (days < 100) {
+        } else if (distance < 100) {
             days = 3;
         } else {
             days = -1;
